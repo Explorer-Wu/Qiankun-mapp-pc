@@ -1,0 +1,53 @@
+.header-top {
+    height: 50px !important;
+    line-height: 50px !important;
+    padding: 0;
+}
+.head-logo {
+    float: left;
+    width: 220px;
+    height: 50px;
+    overflow: hidden;
+    padding: 5px;
+    /*border-right: 1px solid #2a2f32;*/
+    /*border-right: 1px solid #202020;*/
+}
+
+.head-logo > img {
+    float:left;
+    width: auto;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.head-logo > .title {
+    float: left;
+    /* display: inline-block; */
+    color: #fff;
+    margin-right: 10px;
+    font: normal 16px/40px "Microsoft YaHei";
+}
+.head-logo > .title > em {
+    font-size: 20px;
+    font-family: "Apple Chancery", "Savoye LET";
+}
+/* @media (min-height: 500px) {
+  .chart-box-md {
+    height: 280px !important;
+  }
+} */
+/* @media (min-width: 1280px) and (min-height: 800px) */
+@media (min-height: 800px) {
+    /* .dl-box, .mdl-box {
+      height: calc((100vh - 270px)/2);
+    } */
+    .chart-box-md {
+      height: calc((100vh - 400px)/2) !important;
+    }
+  }
+  @media (min-height: 1000px) {
+    .chart-box-md {
+      height: calc((100vh - 400px)/2) !important;
+    }
+  }

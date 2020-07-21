@@ -1,0 +1,16 @@
+{
+    "host": "localhost",
+    "port": 3600,
+    "routes": "routes.js",
+    "dbfile": "./db.js",
+    "static": "../public",
+    "watch": true, 
+    "read-only": false,
+    "no-cors": false,
+    "no-gzip": false,
+    "delay": 100,
+    "snapshots": "../public",
+    "quiet": true,
+    "help": true,
+    "version": true
+}
