@@ -1,0 +1,68 @@
+{
+  "name": "reactmicrocra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@craco/craco": "^5.6.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.5.2",
+    "axios": "^0.19.2",
+    "craco-less": "^1.17.0",
+    "echarts": "^4.8.0",
+    "echarts-for-react": "^2.0.16",
+    "enzyme-to-json": "^3.5.0",
+    "history": "^4.9.0",
+    "immer": "^7.0.5",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "qs": "^6.9.4",
+    "react": "^16.13.1",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "react-redux": "^7.2.0",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-devtools": "^3.5.0",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.2.0",
+    "reselect": "^4.0.0",
+    "rxjs": "^6.6.0",
+    "rxjs-compat": "^6.6.0",
+    "three": "^0.118.3",
+    "use-immer": "^0.4.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.14.1",
+    "react-scripts": "^3.4.1",
+    "sass-loader": "^9.0.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
