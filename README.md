@@ -49,7 +49,7 @@ qiankun 内部提供了 initGlobalState 方法用于注册 MicroAppStateActions 
 1. setGlobalState：设置 globalState - 设置新的值时，内部将执行 浅检查，如果检查到 globalState 发生改变则触发通知，通知到所有的 观察者 函数。
 2. onGlobalStateChange：注册 观察者 函数 - 响应 globalState 变化，在 globalState 发生改变时触发该 观察者 函数。
 3. offGlobalStateChange：取消 观察者 函数 - 该实例不再响应 globalState 变化。
-![avatar](/Explorer-Wu/Qiankun-mapp-pc/blob/dev/micro-main-app/public/actions_tx.jpg)
+![avatar](/micro-main-app/public/actions_tx.jpg)
 从上图可以看出，我们可以先注册 观察者 到观察者池中，然后通过修改 globalState 可以触发所有的 观察者 函数，从而达到组件间通信的效果。
 
 Actions 通信方案也存在一些优缺点.
@@ -76,7 +76,7 @@ Shared 通信方案需要自行维护状态池，这样会增加项目的复杂�
 Shared 通信方案要求父子应用都各自维护一份属于自己的 shared 实例，同样会增加项目的复杂度。好处是子应用可以完全独立于父应用运行（不依赖状态池），子应用也能以最小的改动被嵌入到其他 第三方应用 中。
 
 Shared 通信方案也可以帮助主应用更好的管控子应用。子应用只可以通过 shared 实例来操作状态池，可以避免子应用对状态池随意操作引发的一系列问题。主应用的 Shared 相对于子应用来说是一个黑箱，子应用只需要了解 Shared 所暴露的 API 而无需关心实现细节。
-![avatar](/Explorer-Wu/Qiankun-mapp-pc/blob/dev/micro-main-app/public/shared_tx.jpg)
+![avatar](/micro-main-app/public/shared_tx.jpg)
 以上shared 通信的原理和流程进行解析图
 
 ### Shared 通信方案优缺点
