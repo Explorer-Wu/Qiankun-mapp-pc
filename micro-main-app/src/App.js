@@ -32,13 +32,13 @@ function App() {
             */}
             <Suspense fallback={<Spin size="large"></Spin>}>
               <Switch>
+                <Route path="/cramicro" component={Loader} />
                 <Route path="/reactmicro" component={Loader} />
-                <Route exact path="/nextmicro" component={Loader} />
                 <Route path="/vueclimicro" component={Loader} />
                 {/* <Route exact path="/staticmicro" component={Loader} /> */}
                 {/* <Route exact path="/" children={<Home />} /> */}
                 <Route component={NoMatch} />
-                <Redirect to="/reactmicro" />
+                <Redirect to="/cramicro" />
               </Switch>
             </Suspense>
           </Layout>
