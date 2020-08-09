@@ -2,7 +2,9 @@
 /node_modules
 */node_modules
 yarn.lock
+*/yarn.lock
 package-lock.json
+/webpack-chain-vue-app
 
 # testing
 /coverage
