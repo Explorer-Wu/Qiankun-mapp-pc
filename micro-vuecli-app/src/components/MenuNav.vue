@@ -101,7 +101,7 @@
     },
     computed: {
       menuitemClasses: function() {
-        return ["menu-item", this.isFold ? "collapsed-menu" : null]
+        return [this.isFold ? "collapsed-menu" : null]
       }
     },
     mounted() {
@@ -134,7 +134,7 @@
   .menu-item span {
     display: inline-block;
     overflow: hidden;
-    width: 69px;
+    // width: 69px;
     text-overflow: ellipsis;
     white-space: nowrap;
     vertical-align: bottom;

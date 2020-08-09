@@ -9,12 +9,8 @@
     "start:main": "cd micro-main-app && yarn start",
     "install:react": "cd micro-react-cra-app && yarn",
     "start:react": "cd micro-react-cra-app && yarn start",
-    "install:vue": "cd micro-vue-app && yarn",
-    "start:vue": "cd micro-vue-app && yarn start",
     "install:vue-cli": "cd micro-vuecli-app && yarn",
     "start:vue-cli": "cd micro-vuecli-app && yarn start",
-    "install:purehtml": "cd micro-pure-app && yarn",
-    "start:purehtml": "cd micro-pure-app && yarn start",
     "test": "NODE_ENV=test jest",
     "mockserver": "nodemon ./server_mock/server.js"
   },
