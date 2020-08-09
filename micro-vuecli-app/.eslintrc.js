@@ -25,6 +25,8 @@ module.exports = {
     "space-before-function-paren": 0,
     'eol-last': 0,
     'comma-dangle': 0,
+    'camelcase': 0,
+    'prefer-const': 0,
     'no-unneeded-ternary': 0,
     'no-useless-return': 0,
     // 'no-console': 'off',
