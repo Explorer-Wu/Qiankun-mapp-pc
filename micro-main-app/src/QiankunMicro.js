@@ -39,17 +39,17 @@ const apps = [
   //   activeRule: "/mainmicro"
   // },
   {
-    name: 'nextmicroapp',
+    name: 'reactmicroapp',
     entry: '//localhost:3601',
     container: '#subapp',
     // loader,
-    activeRule: '/nextmicro'
+    activeRule: '/reactmicro'
   },
   {
-    name: 'reactmicrocra',
+    name: 'cramicroapp',
     entry: '//localhost:3603',
     container: '#subapp',
-    activeRule: '/reactmicro'
+    activeRule: '/cramicro'
   },
   // {
   //   name: 'vuemicroapp',
@@ -132,7 +132,7 @@ setGlobalState({
  * Step3 设置默认进入的子应用
  */
 // setDefaultMountApp(defaultApp);
-setDefaultMountApp('/reactmicro')
+setDefaultMountApp('/cramicro')
 
 /**
  * runAfterFirstMounted(effect), effect - () => void - 必选

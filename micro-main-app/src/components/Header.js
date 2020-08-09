@@ -62,12 +62,12 @@ export class HeadTop extends PureComponent {
         <Menu
           theme="dark"
           mode="horizontal"
-          defaultSelectedKeys={['/reactmicro']}
+          defaultSelectedKeys={['/cramicro']}
           selectedKeys={this.state.selectedKeys}
           onClick={this.linkTo}
           className="fl mar-r10"
         >
-          <Menu.Item key="/nextmicro">NextMicroApp</Menu.Item>
+          <Menu.Item key="/cramicro">CRAMicroApp</Menu.Item>
           <Menu.Item key="/reactmicro">ReactMicroApp</Menu.Item>
           <Menu.Item key="/vueclimicro">VueCliMicroApp</Menu.Item>
           {/* <Menu.Item key="/staticmicro">StaticMicroApp</Menu.Item> */}

@@ -17,7 +17,7 @@ const supportsHistory = "pushState" in window.history;
 function App() {
   return (
     <Router
-      basename={window.__POWERED_BY_QIANKUN__ ? "/reactmicro" : "/"}
+      basename={window.__POWERED_BY_QIANKUN__ ? "/cramicro" : "/"}
       forceRefresh={!supportsHistory}
     >
       <Switch>
